@@ -48,7 +48,7 @@ async function main() {
     } catch (e) {
         console.log(e);
         process.exit(1);
-    }
+    } 
     client.destroy();
 }
 
